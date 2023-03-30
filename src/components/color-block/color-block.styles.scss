@@ -1,0 +1,28 @@
+.color-block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  border: none;
+  text-align: center;
+
+  .color-code {
+    visibility: hidden;
+    font-size: 1.2em;
+    background-color: #00000066;
+    padding: 2px 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  &:hover {
+    transform: translate(-2%, -2%);
+    transition: transform 0.2s;
+
+    .color-code {
+      visibility: inherit;
+      transition: 0.2s;
+    }
+  }
+}

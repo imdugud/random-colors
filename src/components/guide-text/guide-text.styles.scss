@@ -1,0 +1,10 @@
+.guide-container {
+  position: fixed;
+  padding: 2em 3em;
+  border-radius: 15px;
+  background-color: rgb(0 0 0 / 50%);
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+}
