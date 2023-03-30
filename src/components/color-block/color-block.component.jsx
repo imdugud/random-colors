@@ -19,7 +19,7 @@ function ColorBlock({ color }) {
   return (
     <button onClick={clickHandler} className="color-block" style={styles}>
       <span className="color-code">
-        {!isCopied ? `Copied to \n Clipboard` : hexCode}
+        {isCopied ? `Copied to \n Clipboard` : hexCode}
       </span>
     </button>
   );
